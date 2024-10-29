@@ -1,4 +1,4 @@
-//Codígo de Perez
+//Codígo de 𝙎𝙚𝙧𝙥𝙚𝙣𝙩 𝘽𝙖𝙣
 
 import fs from 'fs';
 import path from 'path';

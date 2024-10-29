@@ -1,4 +1,4 @@
-/* Creditos a Perez */
+/* Creditos a 𝙎𝙚𝙧𝙥𝙚𝙣𝙩 𝘽𝙖𝙣 */
 
 const handler = async (m, {conn, isAdmin, isOwner, args, usedPrefix, command}) => {
   if (!(isAdmin || isOwner)) {

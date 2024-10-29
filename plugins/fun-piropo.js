@@ -1,7 +1,7 @@
-/* By Perez */
+/* By 𝙎𝙚𝙧𝙥𝙚𝙣𝙩 𝘽𝙖𝙣 */
 
 const handler = async (m, {conn, text}) => {
-  m.reply(`*➢ "${pickRandom(global.piropo)}"*\n\n*𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳-𝑴𝑫 👑*`);
+  m.reply(`*➢ "${pickRandom(global.piropo)}"*\n\n*𝗚𝗔𝗡𝗚 𝗕𝗢𝗧-𝑴𝑫 👑*`);
 };
 handler.help = ['piropo']
 handler.tags = ['fun'];

@@ -2,7 +2,7 @@ let handler = async (m, { conn, isRowner}) => {
 	let _muptime
 	let totalreg = Object.keys(global.db.data.users).length
 	let totalchats = Object.keys(global.db.data.chats).length
-	let pp = 'https://i.ibb.co/h1NdKpL/perez.jpg'
+	let pp = 'https://i.ibb.co/njDY61k/siskedurl.jpg'
     if (process.send) {
       process.send('uptime')
       _muptime = await new Promise(resolve => {
@@ -15,7 +15,7 @@ let handler = async (m, { conn, isRowner}) => {
   const groupsIn = chats.filter(([id]) => id.endsWith('@g.us')) 
   const used = process.memoryUsage()
   let txt = `╭─⬣「 *Info Bot* 」⬣\n`
-      txt += `│  ≡◦ *🏳️ Creador ∙* Perez\n`
+      txt += `│  ≡◦ *🏳️ Creador ∙* 𝙎𝙚𝙧𝙥𝙚𝙣𝙩 𝘽𝙖𝙣\n`
       txt += `│  ≡◦ *📚 Grupos Unidos ∙* ${groupsIn.length}\n`
       txt += `│  ≡◦ *👤 Chats Privados ∙* ${chats.length - groupsIn.length}\n`
       txt += `│  ≡◦ *💬 Total De Chats ∙* ${chats.length}\n`
