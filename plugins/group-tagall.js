@@ -10,12 +10,12 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
   }
   const pesan = args.join` `;
   const oi = `${pesan}`;
-  let teks = ` 𝗠𝗘𝗡𝗖𝗜𝗢𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 💌 •.\n\n *Integrantes :  ${participants.length}* ${oi}\n\n❏ 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:\n`;
+  let teks = `𝘼𝘾𝙏𝙄́𝙑𝘼𝙏𝙀 𝙋𝙐𝙎𝙎𝙔 𝘽𝙊𝙔 🚬\n\n *Integrantes :  ${participants.length}* ${oi}\n\n❏ 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:\n`;
   for (const mem of participants) {
-    teks += `┣➥💀･@${mem.id.split('@')[0]}\n`;
+    teks += `💀･@${mem.id.split('@')[0]}\n`;
   }
   teks += `
-𝘚𝘶𝘱𝘦𝘳 𝘉𝘰𝘵 𝘥𝘦 𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱`;
+𝗚𝗔𝗡𝗚 𝗕𝗢𝗧 𝘚𝘶𝘱𝘦𝘳 𝘉𝘰𝘵 𝘥𝘦 𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['todos'];
