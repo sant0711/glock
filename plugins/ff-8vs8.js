@@ -1,4 +1,3 @@
-const handler = async (m, { conn, args }) => {
     // Verificar si se proporcionaron los argumentos necesarios
     if (args.length < 2) {
         conn.reply(m.chat, '_Debes proporcionar la hora (HH:MM) y el color de ropa._', m);
